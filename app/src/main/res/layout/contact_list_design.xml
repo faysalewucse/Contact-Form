@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_img"
+        android:layout_width="50dp"
+        android:src="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_height="80dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faysal Ahmed"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/user_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01634495020"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/call_btn"
+        android:layout_width="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialar_icon"/>
+
+
+
+</LinearLayout>
